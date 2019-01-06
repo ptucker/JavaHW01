@@ -8,6 +8,8 @@ public class Problem4 {
 		System.out.println("Enter your height in inches");
 		Scanner hInput = new Scanner(System.in);
 		double height = hInput.nextInt();
+		//PT -- name these numbers:
+		//   final double KG_TO_POUND = 2.205;
 		double metricWeight = weight/2.205;
 		double metricHeight = height/39.37;
 		double BMI = metricWeight/(metricHeight*metricHeight);
