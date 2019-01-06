@@ -11,6 +11,7 @@ public class Problem3 {
 		
 		for (int i = 0; i <number.length(); i++) {
 			Char = number.charAt(i);
+			//PT -- more readable: if (Char < '0' || Char > '9')
 			if (Char < 48 || Char > 57) {
 				System.out.println("You did not enter a number");
 				isNumber = false;
@@ -20,6 +21,7 @@ public class Problem3 {
 		if (isNumber == true) {
 			convertStringToInt(number);
 		}
+		//PT -- why call convertStringToInt twice? -1
 		System.out.println(convertStringToInt(number));
 		
 		
