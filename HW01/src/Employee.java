@@ -53,5 +53,6 @@ public class Employee {
 	public void setSupervisor(String Super) {
 		supervisor = Super;
 	};
-	
+
+	//PT -- consider overloading toString()
 }
