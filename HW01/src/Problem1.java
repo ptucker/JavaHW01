@@ -15,6 +15,7 @@ public class Problem1 {
 			}
 		}
 		else
+			//PT -- loop on invalid numbers so the user has another chance. -1
 			System.out.println("That is not a valid number");
 	}
 }
