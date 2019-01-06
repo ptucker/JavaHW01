@@ -34,7 +34,7 @@ public class Date {
 			 return 31;
 		 if (m == 4 || m == 6 ||m == 9||m == 11)
 			 return 30;
-		 if (m==2)
+		 if (m==2) //PT -- you need to know the year for this
 			 return 28;
 		 return 0;
 	 }
@@ -48,11 +48,13 @@ public class Date {
 	 public int getYear() {
 		 return year;
 	 }
+	//PT -- return your date object, not the system one. -1
 	 public static java.util.Date getTodaysDate() {
 		 java.util.Date date = java.util.Calendar.getInstance().getTime();
 		 return date;
 	 }
 	 public int difference(Date d) {
+		 //PT -- ??? -5
 		 int days = Days.daysBetween(date1, date2).getDays();
 		 return days;
 	 }
