@@ -1,3 +1,5 @@
+//PT -- javadoc for class
+
 public class Building {
     private String name;
     private String address;
@@ -31,6 +33,8 @@ public class Building {
     public void addPersonToBuilding(Person p){
         currentOccupants[currentOccupants.length] = p;
     }
+    
+    //PT -- can we remove someone? -2
 
     /**
      * gets name
@@ -68,6 +72,7 @@ public class Building {
      * displays all the people in the array of people in the building object
      */
     public void displayOccupants(){
+        //PT -- let the UI do this.
         for (int i = 0; i < currentOccupants.length; i++)
         System.out.println(currentOccupants[i].toString());
     }
