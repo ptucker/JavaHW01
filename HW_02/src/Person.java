@@ -1,10 +1,11 @@
 import java.util.Random;
+//PT -- javadoc comments for class
 public class Person {
     private static int lastnumber = 1111111;
     private static int lastID= 200000;
     private String name;
     private int age;
-    private int phoneNumber;
+    private int phoneNumber; //PT -- need get for phone number. These should probably be protected instead of private. -1
     private double money;
     private int EmployeeID;
 
@@ -41,6 +42,7 @@ public class Person {
      * @param age is name of person
      */
     public void setAge(int age) {
+        //PT -- make sure you're getting a legal age. -2
         this.age = age;
     }
 
