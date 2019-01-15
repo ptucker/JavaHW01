@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GraphicalCityGUI">
+  <grid id="27dc6" binding="backgroundPanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="867" height="664"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="3e81e" binding="personGeneratorPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="d6646" binding="createPolicePanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="30ff2" class="javax.swing.JLabel" binding="createPoliceLabel">
+                <constraints/>
+                <properties>
+                  <text value="Police Generator"/>
+                </properties>
+              </component>
+              <component id="7dc5d" class="javax.swing.JTextField" binding="policeNameTextField">
+                <constraints/>
+                <properties>
+                  <text value="Enter name"/>
+                </properties>
+              </component>
+              <component id="2bcd6" class="javax.swing.JTextField" binding="policeAgeTextField">
+                <constraints/>
+                <properties>
+                  <text value="Enter age"/>
+                </properties>
+              </component>
+              <component id="246e" class="javax.swing.JLabel" binding="policeRoleLabel">
+                <constraints/>
+                <properties>
+                  <text value="Role"/>
+                </properties>
+              </component>
+              <component id="18013" class="javax.swing.JComboBox" binding="policeRoleComboBox">
+                <constraints/>
+                <properties>
+                  <model>
+                    <item value="Patrol"/>
+                    <item value="Sargent"/>
+                    <item value="Captain"/>
+                    <item value="Chief"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="2c369" class="javax.swing.JButton" binding="createPoliceButton">
+                <constraints/>
+                <properties>
+                  <text value="Create Police"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="b6bdb" binding="createKidPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="946e5" class="javax.swing.JLabel" binding="createKidLabel">
+                <constraints/>
+                <properties>
+                  <text value="Kid Generator"/>
+                </properties>
+              </component>
+              <component id="89e41" class="javax.swing.JTextField" binding="kidNameTextField">
+                <constraints/>
+                <properties>
+                  <text value="Enter name"/>
+                </properties>
+              </component>
+              <component id="6af60" class="javax.swing.JTextField" binding="kidAgeTextField">
+                <constraints/>
+                <properties>
+                  <text value="Enter age"/>
+                </properties>
+              </component>
+              <component id="a650a" class="javax.swing.JTextField" binding="kidCandyTextField">
+                <constraints/>
+                <properties>
+                  <text value="Enter favorite candy"/>
+                </properties>
+              </component>
+              <component id="b72f4" class="javax.swing.JButton" binding="createKidButton">
+                <constraints/>
+                <properties>
+                  <text value="Create Kid"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="c6ef2" binding="createTeacherPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e659" class="javax.swing.JLabel" binding="createTeacherLabel">
+                <constraints/>
+                <properties>
+                  <text value="Teacher Generator"/>
+                </properties>
+              </component>
+              <component id="28bb2" class="javax.swing.JTextField" binding="teacherNameTextField">
+                <constraints/>
+                <properties>
+                  <text value="Enter name"/>
+                </properties>
+              </component>
+              <component id="c2ebd" class="javax.swing.JTextField" binding="teacherAgeTextField">
+                <constraints/>
+                <properties>
+                  <text value="Enter age"/>
+                </properties>
+              </component>
+              <component id="a4c8f" class="javax.swing.JTextField" binding="gradeTextField">
+                <constraints/>
+                <properties>
+                  <text value="Enter grade level taught"/>
+                </properties>
+              </component>
+              <component id="7c2f1" class="javax.swing.JLabel" binding="certificationLabel">
+                <constraints/>
+                <properties>
+                  <text value="Certification"/>
+                </properties>
+              </component>
+              <component id="e6dd5" class="javax.swing.JComboBox" binding="certificationOptionsComboBox">
+                <constraints/>
+                <properties>
+                  <model>
+                    <item value="Reading"/>
+                    <item value="Math"/>
+                    <item value="Science"/>
+                    <item value="Special-Ed"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="7e593" class="javax.swing.JButton" binding="createTeacherButton">
+                <constraints/>
+                <properties>
+                  <text value="Create Teacher"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="d1f9f" binding="MainWindowPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="98402" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="3c7f3" binding="mainCityPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="d00a6" binding="buttonsPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="ce3ed" class="javax.swing.JButton" binding="autoGeneratePeopleButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Auto Generate People"/>
+            </properties>
+          </component>
+          <component id="9eb3" class="javax.swing.JButton" binding="cityHallStatsButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="City Hall Stats"/>
+            </properties>
+          </component>
+          <component id="51432" class="javax.swing.JButton" binding="schoolStatsButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="School Stats"/>
+            </properties>
+          </component>
+          <component id="f3f08" class="javax.swing.JButton" binding="lastPersonStatsButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Last Moved Person Stats"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
